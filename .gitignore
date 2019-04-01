@@ -1,3 +1,8 @@
+# Ignore changes in marvel.json to avoid upload credentials to git repository
+# You can force add to stage using -f in add git command.
+# You can avoid add changes with: git update-index --assume-unchanged config/marvel.json
+config/marvel.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
